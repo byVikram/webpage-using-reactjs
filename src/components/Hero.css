@@ -1,0 +1,57 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+}
+
+.intro-img{
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.her{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.her .content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+.her .content h1{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.wel{
+    margin-left: 20px;
+}
+
+
+.content .btn{
+    background-color: bisque;
+    color: black; 
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.btn:hover{
+    color: red;
+}

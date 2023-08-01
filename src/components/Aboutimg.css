@@ -1,0 +1,31 @@
+.about-heading{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.forumdaily.com/wp-content/uploads/2019/10/Depositphotos_212162574_s-2019.jpg);
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.about-heading::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -10;
+}
+
+.about-heading h1{
+    font-size: 2rem;
+    padding: 1rem;
+}

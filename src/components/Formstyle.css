@@ -1,0 +1,39 @@
+.form h4{
+    color: white;
+}
+label{
+    margin-top: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+input{
+    margin-top: 0.5rem;
+    padding: 5px;
+    font-size: 1.2rem;
+    background-color: rgb(167, 162, 162);
+    border-color: rgb(24, 23, 23);
+    border-width: 2px;
+}
+.submit{
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+.submit h4{
+    color: black;
+}
+.submit:hover{
+    background-color: rgb(174, 234, 178);
+}
+
+@media screen and (max-width:666px) {
+    .form{
+        max-width: 400px;
+    }
+    
+}
